@@ -3,6 +3,20 @@ ul li {
 }
 
 li + #thirditem {
+	/*especificidad en tercer lugar*/
 	background: yellow;
 }
+
 /**** DO NOT EDIT ANYTHING ABOVE THIS LINE ****/
+
+#thirditem {
+	/*1er lugar y mas especifica gana entre las 3*/
+	background: green !important;
+}
+
+ul li#thirditem {
+	/*especificidad en 2do lugar lugar*/
+	background: pink;
+}
+/*No toma en cuenta el orden a menos que sean iguales atributos
+Gana y es tomada en cuenta la mas especifica*/
