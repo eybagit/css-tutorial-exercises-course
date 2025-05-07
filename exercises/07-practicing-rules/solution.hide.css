@@ -1,8 +1,8 @@
 /* add your styles here */
 body {
 	background: url("../../.learn/assets/background-vertical.jpg?raw=true") repeat-y;
-	font-family: "Times New Roman";
-	padding-left: 20px;
+	font-family: "Times New Roman", Times, serif;
+	padding: 0 0 0 20px;
 }
 
 #id1 {
@@ -11,7 +11,7 @@ body {
 }
 
 h1 {
-	font-family: "Courier";
+	font-family: "Courier New", Courier, monospace;
 	color: red;
 }
 
